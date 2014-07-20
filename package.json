@@ -16,6 +16,7 @@
   "bugs": {
     "url": "https://github.com/poying/stylus-seed/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/poying/stylus-seed",
   "devDependencies": {
     "gulp-stylus": "^1.1.0",
@@ -24,4 +25,7 @@
     "gulp-livereload": "^2.1.0",
     "nib": "^1.0.3"
   }
+=======
+  "homepage": "https://github.com/poying/stylus-seed"
+>>>>>>> fe4fe152767ba0bbc1710259ba04eae7837d8a77
 }

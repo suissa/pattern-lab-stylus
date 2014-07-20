@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import "reset.css";
+<<<<<<< HEAD
 [class^="atom-button-"],
 [class*=" atom-button-"] {
   border: none;
@@ -10,6 +11,11 @@
   font-weight: normal;
   font-style: normal;
 }
+=======
+.atom-button- {
+  border: none;
+}
+>>>>>>> fe4fe152767ba0bbc1710259ba04eae7837d8a77
 .atom-button-facebook {
   display: inline-block;
   float: left;
@@ -21,10 +27,13 @@
   font-weight: bold;
   background: #18249c;
 }
+<<<<<<< HEAD
 .atom-button-facebook:before {
   content: '\e600';
   font-family: facebook;
 }
+=======
+>>>>>>> fe4fe152767ba0bbc1710259ba04eae7837d8a77
 .atom-button-twitter {
   display: inline-block;
   float: left;
@@ -82,6 +91,7 @@
   background: #fff;
   color: #000;
 }
+<<<<<<< HEAD
 .atom-button-save {
   display: inline-block;
   float: left;
@@ -93,6 +103,8 @@
   font-weight: bold;
   background: #019956;
 }
+=======
+>>>>>>> fe4fe152767ba0bbc1710259ba04eae7837d8a77
 .atom-input {
   margin: 5px 0px;
 }
