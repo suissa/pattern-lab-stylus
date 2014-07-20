@@ -1,0 +1,20 @@
+{
+  "name": "stylus-seed-pattern-lab",
+  "version": "0.0.1",
+  "description": "規劃 stylus 檔案結構",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "stylus -w stylus/main.styl -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poying/stylus-seed.git"
+  },
+  "author": "Suissa",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/poying/stylus-seed/issues"
+  },
+  "homepage": "https://github.com/poying/stylus-seed"
+}
