@@ -1,3 +1,20 @@
+atom-structure(pad)
+  display inline-block
+  float left
+  padding pad
+
+atom-size(height, width = 100%, min-width = 30%)
+  width width
+  min-width min-width
+  height height
+
+atom-create(bg, pad = 0, height = 0, width = 100%, min-width = 30%)
+  atom-structure(pad)
+  atom-size(height, width, min-width)
+  color color-text
+  font-weight bold
+  background bg
+
 @import "../settings/index.styl"
-@import "input-text.styl"
-@import "buttons.styl"
+@import "./buttons/index.styl"
+@import "inputs.styl"

@@ -1,66 +1,124 @@
 @charset "UTF-8";
 @import "reset.css";
-.atom-input-login {
-  display: inline-block;
-  width: 100%;
-  clear: both;
-  float: left;
-  padding: 4px;
-  color: #000;
-}
 .atom-button {
   display: inline-block;
   float: left;
   padding: 4px;
   width: 100%;
   min-width: 30%;
-  height: 80px;
+  height: 40px;
   color: #000;
   font-weight: bold;
   background: #ccc;
   border: 0;
 }
-.atom-button-login-facebook {
+.atom-button-facebook {
   display: inline-block;
   float: left;
   padding: 4px;
   width: 100%;
   min-width: 30%;
-  height: 80px;
+  height: 40px;
   color: #000;
   font-weight: bold;
   background: #18249c;
   border: 0;
 }
-.atom-button-login-twitter {
+.atom-button-twitter {
   display: inline-block;
   float: left;
   padding: 4px;
   width: 100%;
   min-width: 30%;
-  height: 80px;
+  height: 40px;
   color: #000;
   font-weight: bold;
   background: #00a5c9;
   border: 0;
 }
-.atom-button-login-plus {
+.atom-button-gplus {
   display: inline-block;
   float: left;
   padding: 4px;
   width: 100%;
   min-width: 30%;
-  height: 80px;
+  height: 40px;
   color: #000;
   font-weight: bold;
   background: #c2000a;
   border: 0;
 }
-.organism-social-login-buttons-wrapper {
+.atom-button-save {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 40px;
+  color: #000;
+  font-weight: bold;
+  background: #019956;
+  border: 0;
+}
+.atom-input {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 30px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  color: #000;
+}
+.atom-input-text {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 30px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  color: #000;
+}
+.atom-input-password {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 30px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  color: #000;
+}
+.atom-input-email {
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  min-width: 30%;
+  height: 30px;
+  color: #000;
+  font-weight: bold;
+  background: #fff;
+  color: #000;
+}
+.organism-login {
+  width: 100%;
+}
+.atom-input {
+  margin: 5px 0px;
+}
+.molecule-social-login-buttons-wrapper {
   width: 30%;
 }
-.organism-social-login-buttons-wrapper .atom {
+.molecule-social-login-buttons-wrapper .atom-button {
   width: 33.3%;
   min-width: 33.3%;
-  height: 60px;
+  height: 30px;
 }
