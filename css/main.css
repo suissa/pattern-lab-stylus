@@ -1,16 +1,7 @@
 @charset "UTF-8";
 @import "reset.css";
-.atom-button {
-  display: inline-block;
-  float: left;
-  padding: 4px;
-  width: 100%;
-  min-width: 30%;
-  height: 40px;
-  color: #000;
-  font-weight: bold;
-  background: #ccc;
-  border: 0;
+.atom-button- {
+  border: none;
 }
 .atom-button-facebook {
   display: inline-block;
@@ -22,7 +13,6 @@
   color: #000;
   font-weight: bold;
   background: #18249c;
-  border: 0;
 }
 .atom-button-twitter {
   display: inline-block;
@@ -34,7 +24,6 @@
   color: #000;
   font-weight: bold;
   background: #00a5c9;
-  border: 0;
 }
 .atom-button-gplus {
   display: inline-block;
@@ -46,33 +35,19 @@
   color: #000;
   font-weight: bold;
   background: #c2000a;
-  border: 0;
 }
-.atom-button-save {
-  display: inline-block;
-  float: left;
-  padding: 4px;
-  width: 100%;
-  min-width: 30%;
-  height: 40px;
-  color: #000;
-  font-weight: bold;
-  background: #019956;
-  border: 0;
+.molecule-social-login-buttons-wrapper {
+  width: 30%;
+}
+.molecule-social-login-buttons-wrapper .atom-button {
+  width: 33.3%;
+  min-width: 33.3%;
+  height: 30px;
 }
 .atom-input {
-  display: inline-block;
-  float: left;
-  padding: 4px;
-  width: 100%;
-  min-width: 30%;
-  height: 30px;
-  color: #000;
-  font-weight: bold;
-  background: #fff;
-  color: #000;
+  margin: 5px 0px;
 }
-.atom-input-text {
+.atom-input-email {
   display: inline-block;
   float: left;
   padding: 4px;
@@ -96,29 +71,12 @@
   background: #fff;
   color: #000;
 }
-.atom-input-email {
-  display: inline-block;
-  float: left;
-  padding: 4px;
-  width: 100%;
-  min-width: 30%;
-  height: 30px;
-  color: #000;
-  font-weight: bold;
-  background: #fff;
-  color: #000;
+.atom-input {
+  margin: 5px 0px;
 }
 .organism-login {
   width: 100%;
 }
-.atom-input {
-  margin: 5px 0px;
-}
-.molecule-social-login-buttons-wrapper {
-  width: 30%;
-}
-.molecule-social-login-buttons-wrapper .atom-button {
-  width: 33.3%;
-  min-width: 33.3%;
-  height: 30px;
+.organism-login {
+  width: 100%;
 }
